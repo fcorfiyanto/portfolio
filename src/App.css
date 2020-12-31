@@ -1,0 +1,171 @@
+@import '~antd/dist/antd.css';
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.header {
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+}
+
+.navbar-item {
+    display: flex;
+    justify-content: center;
+    background-color: inherit !important;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.navbar-item>a {
+    color: #808080 !important;
+}
+
+.home {
+    font-weight: bold;
+}
+
+.home-container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.home-name {
+    font-size: 3rem !important;
+    text-align: center;
+}
+
+.home-detail {
+    font-size: 1.5rem !important;
+    text-align: center;
+}
+
+.about-container {
+    padding: 0 3rem;
+    background-color: #2B313D;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about-main {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-main>.ant-typography {
+    color: #C3BFBC;
+    margin: 0px !important;
+}
+
+.about-detail {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-bottom: 3rem !important;
+}
+
+.about-detail>.ant-col {
+    padding: 1rem !important;
+}
+
+.about-detail>.ant-col>.ant-typography {
+    color: #C3BFBC;
+}
+
+.section-heading {
+    font-size: 400% !important;
+}
+
+#frans-photo {
+    max-width: 50%;
+    height: auto;
+    border-radius: 50%;
+    margin: 2rem 0 5rem 0;
+}
+
+.work-container {
+    padding: 0 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.work-main {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.work-detail {
+    max-width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-bottom: 3rem !important;
+}
+
+.contact-container {
+    min-height: 100vh;
+    padding: 3rem;
+    background-color: #2B313D;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-container>.ant-typography {
+    color: #C3BFBC;
+}
+
+.contact-button {
+    background-color: #517DA2;
+    border-color: #517DA2;
+    width: 20rem;
+    height: auto;
+    font-size: 1.5rem !important;
+    margin-top: 2rem;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-icons {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-icon {
+    font-size: 3rem;
+}
+
+.footer-button {
+    margin: 0px 15px;
+    width: auto;
+    height: auto;
+}
+
+.footer-button:hover {
+    background-color: inherit !important;
+}
